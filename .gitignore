@@ -128,3 +128,23 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignorer les fichiers de cache Konva.js
+konva-temp/
+
+# Ignorer les fichiers de cache Tailwind CSS
+.tailwind/
+
+# Ignorer les builds Vite (si utilisé)
+.vite/
+
+# Ignorer les fichiers JSON d’exportation
+*.json.backup
+
+# Ignorer les fichiers de test
+__tests__/
+__mocks__/
+
+# Ignorer les fichiers de configuration d’éditeurs (si tu veux éviter de les committer)
+.idea/
+.vscode/
